@@ -1,0 +1,69 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+.weather-container {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.input-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.city-dropdown {
+    padding: 10px;
+    font-size: 16px;
+    width: 70%;
+}
+
+.get-weather-button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.weather-details h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.weather-details p {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.weather-icon {
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+}
+
+/* Define background images for different weather conditions */
+.weather-icon.clearday {
+    background-image: url('URL_TO_CLEAR_IMAGE');
+}
+
+.weather-icon.pcloudyday {
+    background-image: url('URL_TO_PCLOUDY_IMAGE');
+}
+footer {
+    text-align: center;
+}
+/* Add more styles and classes for other weather conditions */
